@@ -1,0 +1,7 @@
+package com.jj.microservices.netflixzuulapigatewayserver;
+
+import com.netflix.zuul.constants.ZuulConstants;
+
+public class ZuulLoggingFilter extends ZuulConstants{
+
+}

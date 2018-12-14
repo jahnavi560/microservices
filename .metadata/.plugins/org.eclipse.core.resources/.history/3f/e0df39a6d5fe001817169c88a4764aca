@@ -1,0 +1,33 @@
+package com.jj.microservices.currencyconversionservice;
+
+import java.math.BigDecimal;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+public class CurrencyConversionBean {
+	
+	private Long id;
+	private String from;
+	private String to;
+	private BigDecimal quantity;
+	private BigDecimal conversionMultiple;
+	private BigDecimal caculatedAmount;
+	private int port;
+	
+	public CurrencyConversionBean(Long id, String from, String to, BigDecimal quantity, BigDecimal conversionMultiple,
+			BigDecimal caculatedAmount) {
+		super();
+		this.id = id;
+		this.from = from;
+		this.to = to;
+		this.quantity = quantity;
+		this.conversionMultiple = conversionMultiple;
+		this.caculatedAmount = caculatedAmount;
+	}
+	
+	
+
+}

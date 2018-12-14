@@ -1,0 +1,5 @@
+package com.jj.microservices.netflixzuulapigatewayserver;
+
+public class ZuulLoggingFilter {
+
+}

@@ -1,0 +1,5 @@
+package com.jj.microservices.currencyconversionservice;
+
+public interface CurrencyExchangeServiceProxy {
+
+}

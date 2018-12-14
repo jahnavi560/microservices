@@ -1,0 +1,6 @@
+insert into exchange_value(id,currency_from,currency_to,conversion_multiple)
+values(100,'USD','INR',72);
+insert into exchange_value(id,currency_from,currency_to,conversion_multiple)
+values(101,'EUR','INR',65);
+insert into exchange_value(id,currency_from,currency_to,conversion_multiple)
+values(102,'AUD','INR',60);
